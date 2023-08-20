@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Zichong Wang Personal Profile.">
+<meta name="author" content="Zichong Wong">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="css/kube.min.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/custom.min.css" />
+<link rel="shortcut icon" href="img/zw.png" />
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<style>
+	.intro h1:before {
+		/* Edit this with your name or anything else */
+		content: 'Lavine';
+	}
+</style>
+</head>
+<body>
+<!-- Navigation -->
+<div class="main-nav">
+	<div class="container">
+		<header class="group top-nav">
+			<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				<span class="logo">Zichong Wang</span>
+			</div>
+			<nav id="navbar-1" class="navbar item-nav">
+				<ul>
+					<li class="active"><a href="index.html">About</a></li>
+					<li><a href="publications.html">Publications</a></li>
+					<li><a href="teaching.html">Teaching</a></li>
+					<li><a href="award.html">Achievements</a></li>
+					<li><a href="services.html">Services</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+</div>
+
+
+
+<!-- Education -->
+<div class="work section second" id="experiences">
+	<div class="container">
+		<h1 style="margin-top: 10%;">Publications</h1>
+    <p>For a full list of publications, visit my <a href="https://scholar.google.com/citations?hl=zh-CN&user=NgxMqeEAAAAJ">Google Scholar page</a>.</p>
+		<ul class="work-list">
+			<li><h3>2023</h3></li>
+<!-- 			<li><b>FG<sup>2</sup>AN: Fairness-aware Graph Generative Adversarial Networks</b></li> -->
+			<li><b>Fair Graph Generative Adversarial Networks</b></li>
+      			<li><u>Zichong Wang</u>, Charles Wallace, Albert Bifet, Xin Yao, and Wenbin Zhang</li>
+			<li><i>Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases <b>(ECML-PKDD)</b>, Turin, Italy, 2023</i></li>
+			
+			<br>
+			
+			<li><b>Towards Fair Machine Learning Software: Understanding and Addressing Model Bias Through Counterfactual Thinking</b></li>
+      			<li><u>Zichong Wang</u>, Yang Zhou, Meikang Qiu, Israat Haque, Laura Brown, Yi He, Jianwu Wang, David Lo, and Wenbin Zhang</li>
+			<li><i>In Preprint: arXiv preprint arXiv:2302.08018</i></li>
+      			
+			<br>
+      			
+			<li><b>Individual Fairness under Uncertainty</b></li>
+<!--       			<li>Wenbin Zhang, Juyong Kim, <u>Zichong Wang</u>, Pradeep Ravikumar, Jeremy Weiss</li> -->
+			<li>Wenbin Zhang, <u>Zichong Wang</u>, Juyong Kim, Cheng Cheng, Thomas Oommen, Pradeep Ravikumar, and Jeremy Weiss</li>
+			<li><i>Proceedings of the European Conference on Artificial Intelligence <b>(ECAI)</b>, Kraków, Poland, 2023</i></li>
+			
+			
+			<br>
+			
+			<li><b>Preventing Discriminatory Decision-making in Evolving Data Stream <br><span style="color: red;">Best Paper Award</span></b></li>
+			<li><u>Zichong Wang</u>, Nripsuta Saxena, Tongjia Yu, Sneha Karki, Tyler Zetty, Israat Haque, Shan Zhou, Dukka Kc, Ian Stockwell, Albert Bifet, and Wenbin Zhang</li>
+			<li><i>Proceedings of the ACM Conference on Fairness, Accountability, and Transparency <b>(FAccT)</b>, Chicago, USA, 2023</i><li>
+      
+		</ul>
+	</div>
+</div>
+
+
+
+<!-- Quote -->
+<div class="quote">
+	<div class="container text-centered">
+		<h1>Trying to do better.</h1>
+	</div>
+</div>
+
+<footer>
+	<div class="container">
+		<div class="units-row">
+      			<div class="unit-50">
+        			<p id="date"></p> <!-- Added an id to the paragraph -->
+      			</div>
+			<div class="unit-50">
+				<ul class="social list-flat right">
+					<li><a href="https://github.com/LavinWong"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/zichong-wang-a816a120b/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="mailto:zichongw@mtu.edu"><i class="fa fa-envelope"></i></a></li>
+					<li><a href="https://scholar.google.com/citations?hl=zh-CN&user=NgxMqeEAAAAJ"><i class="fa fa-google"></i></a></li>
+<!-- 					<li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+    		document.getElementById('date').innerText = new Date().toLocaleDateString("en-US", {year: 'numeric', month: 'long'}) + ', Zichong Wong';
+  	</script>
+</footer>
+
+<!-- Javascript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/kube.min.js"></script>
+<script src="js/site.js"></script>
+<script>
+	function newTyped(){}$(function(){$("#typed").typed({
+	// Change to edit type effect
+	strings: ["soccer fan", "dog lover", "travel enthusiast"],
+
+	typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+</script>
+</body>
+</html>
